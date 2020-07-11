@@ -1,0 +1,21 @@
+@startuml Docker_state_diagram
+hide empty description
+
+' 状態の定義
+State Dockerfile
+State Image as "Docker image"
+State Container as "Docker container" {
+    State Up
+    State Exited
+    Up-down->Exited :docker stop
+    Exited-up->Up :docker start
+}
+
+' 状態遷移の定義
+[*]-down->Dockerfile
+Dockerfile->Image :docker build
+Image->[*] :docker rmi
+Image-down->Container :docker create
+Image-down->Up :docker run
+Container-->[*] :docker rm
+@enduml
