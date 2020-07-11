@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="439px" preserveAspectRatio="none" style="width:489px;height:439px;" version="1.1" viewBox="0 0 489 439" width="489px" zoomAndPan="magnify"><defs><filter height="300%" id="f1gbjiy9a0p1un" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[8e1ca234e67c2d8bfc0f296ca0077fd7]
+cluster Container--><rect fill="#FEFECE" filter="url(#f1gbjiy9a0p1un)" height="224" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="287" x="7" y="198"/><rect fill="#FFFFFF" height="191.7031" rx="12.5" ry="12.5" style="stroke: #FFFFFF; stroke-width: 1.0;" width="281" x="10" y="227.2969"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="294" y1="224.2969" y2="224.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="125" x="88" y="214.9951">Docker container</text><rect fill="#FEFECE" filter="url(#f1gbjiy9a0p1un)" height="40" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="50" x="155" y="241"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="19" x="170.5" y="265.8467">Up</text><rect fill="#FEFECE" filter="url(#f1gbjiy9a0p1un)" height="40" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="56" x="96" y="358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="46" x="101" y="382.8467">Exited</text><rect fill="#FEFECE" filter="url(#f1gbjiy9a0p1un)" height="40" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="85" x="36.5" y="87"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="75" x="41.5" y="111.8467">Dockerfile</text><rect fill="#FEFECE" filter="url(#f1gbjiy9a0p1un)" height="40" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="110" x="235" y="87"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="100" x="240" y="111.8467">Docker image</text><ellipse cx="79" cy="16" fill="#000000" filter="url(#f1gbjiy9a0p1un)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/><ellipse cx="369" cy="378" fill="none" filter="url(#f1gbjiy9a0p1un)" rx="10" ry="10" style="stroke: #000000; stroke-width: 1.0;"/><ellipse cx="369.5" cy="378.5" fill="#000000" rx="6" ry="6" style="stroke: none; stroke-width: 1.0;"/><!--MD5=[a6db9037003aee7a80a7d72acdec5a0d]
+link Up to Exited--><path d="M154.796,264.547 C126.955,268.858 83.372,280.381 63,311 C50.6543,329.555 71.0766,347.9516 91.544,360.5897 " fill="none" id="Up-&gt;Exited" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="95.9,363.1971,90.231,355.1434,91.6095,360.6297,86.1232,362.0083,95.9,363.1971" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="75" x="64" y="324.0669">docker stop</text><!--MD5=[2697d3e703302c1096812a6fc19a72e2]
+reverse link Up to Exited--><path d="M168.359,285.906 C157.995,307.189 143.026,337.93 133.404,357.6888 " fill="none" id="Up&lt;-Exited" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="170.627,281.248,163.0912,287.5893,168.4385,285.7436,170.2842,291.0909,170.627,281.248" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="77" x="156" y="324.0669">docker start</text><!--MD5=[38bcd8aa503f291ecc9b2a6d02eafe2c]
+link *start to Dockerfile--><path d="M79,26.189 C79,39.18 79,63.376 79,81.734 " fill="none" id="*start-&gt;Dockerfile" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="79,86.743,83,77.743,79,81.743,75,77.743,79,86.743" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[fe8293981896c26ce7db761b10529382]
+link Dockerfile to Image--><path d="M121.699,107 C152.803,107 195.358,107 229.893,107 " fill="none" id="Dockerfile-&gt;Image" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="234.928,107,225.928,103,229.928,107,225.928,111,234.928,107" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="77" x="139.75" y="100.0669">docker build</text><!--MD5=[91e0490bb282733c4c6160e4abd3d846]
+link Image to *end--><path d="M345.214,124.001 C361.083,131.41 376.62,142.01 386,157 C426.323,221.435 403.636,253.411 389,328 C386.469,340.899 380.521,354.6838 375.765,364.336 " fill="none" id="Image-&gt;*end" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="373.411,368.9802,381.0476,362.7607,375.6714,364.5203,373.9118,359.1441,373.411,368.9802" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="68" x="409" y="265.5669">docker rmi</text><!--MD5=[32d79bdd46623146d3c0cf37256a7390]
+link Image to Container--><path d="M289.493,127.251 C289.2283,137.3165 288.8823,150.4674 288.511,164.5756 C288.3254,171.6297 288.1335,178.9231 287.9423,186.1898 C287.8467,189.8231 287.7513,193.4498 287.6569,197.0365 C287.651,197.2607 287.6451,197.4847 287.6392,197.7085 " fill="none" id="Image-&gt;Container" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="287.6392,197.7085,291.8745,188.8169,287.7707,192.7103,283.8773,188.6064,287.6392,197.7085" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="88" x="289" y="170.0669">docker create</text><!--MD5=[da3bcdee60f110268c2c21372a03330d]
+link Image to Up--><path d="M246.019,127.175 C232.831,134.786 219.393,144.704 210,157 C192.415,180.02 185.124,213.087 182.11,235.496 " fill="none" id="Image-&gt;Up" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="181.464,240.669,186.5491,232.2345,182.084,235.7076,178.6109,231.2425,181.464,240.669" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="68" x="211" y="170.0669">docker run</text><!--MD5=[32e398fb66e62ff9227c036c6dea007f]
+link Container to *end--><path d="M294.0805,283.3709 C294.1621,283.5661 294.2442,283.7622 294.3269,283.959 C294.6577,284.7464 294.9974,285.5466 295.3457,286.3581 C300.9195,299.3425 308.7175,315.2265 318,328 C329.343,343.609 345.977,358.5177 357.132,367.705 " fill="none" id="Container-&gt;*end" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="361.26,371.0494,356.7866,362.2751,357.3756,367.9012,351.7495,368.4901,361.26,371.0494" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="65" x="319" y="324.0669">docker rm</text><!--MD5=[dc17de49a6b38ee75079c1b0a6d62ef6]
+@startuml
+hide empty description
+
+' 状態の定義
+State Dockerfile
+State Image as "Docker image"
+State Container as "Docker container" {
+    State Up
+    State Exited
+    Up-down->Exited :docker stop
+    Exited-up->Up :docker start
+}
+
+' 状態遷移の定義
+[*]-down->Dockerfile
+Dockerfile->Image :docker build
+Image->[*] :docker rmi
+Image-down->Container :docker create
+Image-down->Up :docker run
+Container- ->[*] :docker rm
+@enduml
+
+@startuml
+hide empty description
+
+State Dockerfile
+State Image as "Docker image"
+State Container as "Docker container" {
+    State Up
+    State Exited
+    Up-down->Exited :docker stop
+    Exited-up->Up :docker start
+}
+
+[*]-down->Dockerfile
+Dockerfile->Image :docker build
+Image->[*] :docker rmi
+Image-down->Container :docker create
+Image-down->Up :docker run
+Container- ->[*] :docker rm
+@enduml
+
+PlantUML version 1.2020.16beta3(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
